@@ -24,7 +24,7 @@ An AI-powered resume analyzer built with Flask and Google Gemini AI that gives i
 
 \- Flask
 
-\- Google Gemini AI API
+\- Groq AI API
 
 \- HTML/CSS
 
@@ -36,9 +36,9 @@ An AI-powered resume analyzer built with Flask and Google Gemini AI that gives i
 
 2\. Install dependencies - pip install -r requirements.txt
 
-3\. Create a .env file and add your Gemini API key - GEMINI\_API\_KEY=your\_key\_here
+3\. Create a .env file and add your Groq API key - GEMINI\_API\_KEY=your\_key\_here
 
 4\. Run the app - python app.py
 
-5\. Open http://127.0.0.1:5000 in your browser
+5\. Open https://ai-resume-checker-1anl.onrender.com/ in your browser
 
