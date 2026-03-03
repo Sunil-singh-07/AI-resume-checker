@@ -36,7 +36,7 @@ An AI-powered resume analyzer built with Flask and Google Gemini AI that gives i
 
 2\. Install dependencies - pip install -r requirements.txt
 
-3\. Create a .env file and add your Groq API key - GEMINI\_API\_KEY=your\_key\_here
+3\. Create a .env file and add your Groq API key - GROQ\_API\_KEY=your\_key\_here
 
 4\. Run the app - python app.py
 
