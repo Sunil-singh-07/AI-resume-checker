@@ -6,6 +6,31 @@
     <title>AI Resume Screener</title>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
     <style>
+        .nav-pill {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 40px;
+          background: var(--surface);
+          border: 1px solid var(--border);
+          border-radius: 100px;
+          padding: 6px;
+          width: fit-content;
+        }
+        .nav-pill a {
+           padding: 8px 20px;
+           border-radius: 100px;
+           font-family: 'Syne', sans-serif;
+           font-size: 0.82rem;
+           font-weight: 700;
+           text-decoration: none;
+           color: var(--muted);
+           transition: all 0.2s;
+        }
+        .nav-pill a.active {
+            background: linear-gradient(135deg, #6c63ff, #9c8fff);
+            color: white;
+        }
         :root {
             --bg: #0a0a0f;
             --surface: #13131a;
@@ -504,6 +529,10 @@
 </head>
 <body>
 <div class="container">
+    <div class="nav-pill">
+        <a href="/" class="active">Resume Screener</a>
+        <a href="/jd-analyze">JD Deep Analyzer</a>
+    </div>
 
     <header>
         <div class="badge">✦ Powered by Llama 3.3</div>
